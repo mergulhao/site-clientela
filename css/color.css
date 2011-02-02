@@ -1,0 +1,100 @@
+body {
+  font-family: Lucida Grande,Arial,Helvetica,sans-serif; }
+
+div#header {
+  margin: 30px auto; }
+  div#header div#logo h1 a {
+    display: block;
+    background: white url("../images/logo.png") no-repeat;
+    height: 82px;
+    font-size: 0px; }
+
+div#banner {
+  border-top: 1px solid #478323;
+  margin-bottom: 15px;
+  background-color: #D1F2A5;
+  padding: 15px; }
+  div#banner p {
+    font-weight: bold;
+    line-height: 25px;
+    color: #478323;
+    font-size: 1.1em;
+    margin-bottom: 15px; }
+    div#banner p strong {
+      font-size: 1.3em;
+      font-weight: bold; }
+    div#banner p.tiny:hover {
+      background: -moz-linear-gradient(top, #ff7100, #ff9640);
+      background: -webkit-gradient(linear, left top, left bottom, from(#ff7100), to(#ff9640)); }
+    div#banner p.tiny {
+      background-color: #FF9640;
+      padding: 10px;
+      text-align: center;
+      border: 2px solid #FF7100;
+      -webkit-border-radius: 10px;
+      -moz-border-radius: 10px;
+      -moz-box-shadow: 3px 3px 0.1em #999;
+      -webkit-box-shadow: 3px 3px 0.1em #999;
+      background: -moz-linear-gradient(top, #ff9640, #ff7100);
+      background: -webkit-gradient(linear, left top, left bottom, from(#ff9640), to(#ff7100));
+      color: #fff;
+      font-weight: normal;
+      text-decoration: none; }
+    div#banner p.highlight {
+      font-size: 1.4em;
+      line-height: 38px;
+      color: #737373;
+      margin-bottom: 20px; }
+
+div#content {
+  color: #737373; }
+  div#content h3 {
+    margin: 15px 0;
+    padding: 8px 0;
+    -moz-box-shadow: 0px 1px 1px #A3A3A3;
+    border-bottom: 1px solid #B4B4B4;
+    font-size: 2em; }
+  div#content p {
+    margin-top: 20px;
+    line-height: 22px; }
+  div#content ul {
+    margin-top: 20px; }
+    div#content ul li {
+      width: 180px;
+      float: left;
+      padding-left: 70px;
+      margin: 0 20px 40px 0;
+      min-height: 90px;
+      line-height: 22px; }
+      div#content ul li.notes-edit {
+        background: white url("../images/icons/notes_edit.png") no-repeat; }
+      div#content ul li.phone-book-search {
+        background: white url("../images/icons/phone_book_search.png") no-repeat; }
+      div#content ul li.chart {
+        background: white url("../images/icons/chart.png") no-repeat; }
+      div#content ul li.users {
+        background: white url("../images/icons/users.png") no-repeat; }
+      div#content ul li.mail-open {
+        background: white url("../images/icons/mail_open.png") no-repeat; }
+      div#content ul li.process-accept {
+        background: white url("../images/icons/process_accept.png") no-repeat; }
+      div#content ul li.light-bulb {
+        background: white url("../images/icons/light_bulb.png") no-repeat; }
+      div#content ul li.photo {
+        background: white url("../images/icons/photo.png") no-repeat; }
+
+div#footer {
+  margin-top: 25px;
+  background-image: url("../images/bg_footer.jpg");
+  color: #C6DCB9;
+  text-align: center; }
+  div#footer p {
+    margin: 20px; }
+  div#footer a {
+    color: #C6DCB9;
+    text-decoration: none; }
+  div#footer div#footer-top {
+    width: 100%;
+    margin: 0;
+    height: 29px;
+    background-image: url("../images/top_footer.jpg"); }

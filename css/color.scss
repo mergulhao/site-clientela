@@ -1,0 +1,157 @@
+body {
+  font-family: Lucida Grande,Arial,Helvetica,sans-serif;
+}
+
+div#header {
+  margin: 30px auto;
+
+  div#logo {
+    h1 {
+      a {      
+        display: block;
+        background: #FFF url("../images/logo.png") no-repeat;
+        height: 82px;
+        font-size: 0px;
+      }
+    }
+  }
+}
+
+div#banner {
+  border-top: 1px solid #478323;
+  margin-bottom: 15px;
+  background-color: #D1F2A5;
+//  background-color: #6EE768;
+  padding: 15px;
+
+  p {
+    font-weight: bold;
+    line-height: 25px;
+    color: #478323;
+    font-size: 1.1em;
+    margin-bottom: 15px;
+    
+    strong {
+      font-size: 1.3em;
+      font-weight: bold;
+      //color: #737373;
+    }
+    
+    &.tiny:hover {
+      background: -moz-linear-gradient(top, #FF7100, #FF9640);
+      background: -webkit-gradient(linear, left top, left bottom, from(#FF7100), to(#FF9640));
+    }
+    
+    &.tiny {    
+      background-color: #FF9640;
+      padding: 10px;
+      text-align: center;
+      border: 2px solid #FF7100;
+      -webkit-border-radius: 10px; 
+      -moz-border-radius: 10px;
+      
+      -moz-box-shadow: 3px 3px 0.1em #999;
+      -webkit-box-shadow: 3px 3px 0.1em #999;
+      
+      background: -moz-linear-gradient(top, #FF9640, #FF7100);
+      background: -webkit-gradient(linear, left top, left bottom, from(#FF9640), to(#FF7100));
+
+      color: #fff;
+      font-weight: normal;
+      text-decoration: none;
+    }
+    
+    &.highlight {
+      font-size: 1.4em;
+      line-height: 38px;
+      color: #737373;
+      margin-bottom: 20px;
+    }
+  }
+}
+
+div#content {
+  color: #737373;
+  
+  h3 {
+    margin: 15px 0;
+    padding: 8px 0;
+    -moz-box-shadow: 0px 1px 1px #A3A3A3;
+    border-bottom: 1px solid #B4B4B4;
+    font-size: 2em; 
+  }
+  
+  p {
+    margin-top: 20px;
+    line-height: 22px;
+  }
+
+  ul {
+    margin-top: 20px;
+  
+    li {
+      width:180px;
+      float: left;
+      padding-left: 70px;
+      margin: 0 20px 40px 0;
+      min-height: 90px;
+      line-height: 22px;
+      
+      &.notes-edit {
+        background: #FFF url("../images/icons/notes_edit.png") no-repeat;
+      }
+
+      &.phone-book-search {
+        background: #FFF url("../images/icons/phone_book_search.png") no-repeat;
+      }
+
+      &.chart {
+        background: #FFF url("../images/icons/chart.png") no-repeat;
+      }
+
+      &.users {
+        background: #FFF url("../images/icons/users.png") no-repeat;
+      }
+
+      &.mail-open {
+        background: #FFF url("../images/icons/mail_open.png") no-repeat;
+      }
+      
+      &.process-accept {
+        background: #FFF url("../images/icons/process_accept.png") no-repeat;
+      }
+
+      &.light-bulb {
+        background: #FFF url("../images/icons/light_bulb.png") no-repeat;
+      }
+
+      &.photo {
+        background: #FFF url("../images/icons/photo.png") no-repeat;
+      }
+      // http://dryicons.com/free-icons/preview/shine-icon-set/
+    }
+  }
+}
+
+div#footer {
+  margin-top: 25px;
+  background-image: url("../images/bg_footer.jpg");
+  color: #C6DCB9;
+  text-align: center;
+  
+  p {
+    margin: 20px;
+  }
+  
+  a {
+    color: #C6DCB9;
+    text-decoration: none;
+  }
+
+  div#footer-top {
+    width: 100%;
+    margin: 0;
+    height: 29px;
+    background-image: url("../images/top_footer.jpg");
+  }
+}
