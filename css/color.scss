@@ -2,6 +2,35 @@ body {
   font-family: Lucida Grande,Arial,Helvetica,sans-serif;
 }
 
+a {
+  text-decoration: none !important;
+}
+
+p.button:hover {
+  background: -moz-linear-gradient(top, #FF7100, #FF9640);
+  background: -webkit-gradient(linear, left top, left bottom, from(#FF7100), to(#FF9640));
+}
+
+p.button {
+  display: table;
+  background-color: #FF9640;
+  padding: 10px 20px;
+  border: 2px solid #FF7100;
+  -webkit-border-radius: 10px; 
+  -moz-border-radius: 10px;
+  
+  -moz-box-shadow: 3px 3px 0.1em #999;
+  -webkit-box-shadow: 3px 3px 0.1em #999;
+  
+  background: -moz-linear-gradient(top, #FF9640, #FF7100);
+  background: -webkit-gradient(linear, left top, left bottom, from(#FF9640), to(#FF7100));
+
+  a {
+    font-weight: normal;
+    color: #fff;
+  }
+}
+
 div#header {
   margin: 30px auto;
 
@@ -9,7 +38,7 @@ div#header {
     h1 {
       a {      
         display: block;
-        background: #FFF url("../images/logo.png") no-repeat;
+        background: #FFF url("/images/logo.png") no-repeat;
         height: 82px;
         font-size: 0px;
       }
@@ -18,10 +47,10 @@ div#header {
 }
 
 div#banner {
-  border-top: 1px solid #478323;
   margin-bottom: 15px;
   background-color: #D1F2A5;
-//  background-color: #6EE768;
+  background: -moz-linear-gradient(top, #D1F2A5, #C9F76F, #D1F2A5, #FFF);
+  background: -webkit-gradient(linear, left top, left bottom, from(#D1F2A5), color-stop(0.5, #C9F76F), color-stop(0.5, #D1F2A5), to(#FFF));
   padding: 15px;
 
   p {
@@ -34,33 +63,8 @@ div#banner {
     strong {
       font-size: 1.3em;
       font-weight: bold;
-      //color: #737373;
     }
-    
-    &.tiny:hover {
-      background: -moz-linear-gradient(top, #FF7100, #FF9640);
-      background: -webkit-gradient(linear, left top, left bottom, from(#FF7100), to(#FF9640));
-    }
-    
-    &.tiny {    
-      background-color: #FF9640;
-      padding: 10px;
-      text-align: center;
-      border: 2px solid #FF7100;
-      -webkit-border-radius: 10px; 
-      -moz-border-radius: 10px;
-      
-      -moz-box-shadow: 3px 3px 0.1em #999;
-      -webkit-box-shadow: 3px 3px 0.1em #999;
-      
-      background: -moz-linear-gradient(top, #FF9640, #FF7100);
-      background: -webkit-gradient(linear, left top, left bottom, from(#FF9640), to(#FF7100));
 
-      color: #fff;
-      font-weight: normal;
-      text-decoration: none;
-    }
-    
     &.highlight {
       font-size: 1.4em;
       line-height: 38px;
@@ -76,8 +80,7 @@ div#content {
   h3 {
     margin: 15px 0;
     padding: 8px 0;
-    -moz-box-shadow: 0px 1px 1px #A3A3A3;
-    border-bottom: 1px solid #B4B4B4;
+    border-bottom: 2px solid #D1F2A5;
     font-size: 2em; 
   }
   
@@ -98,35 +101,35 @@ div#content {
       line-height: 22px;
       
       &.notes-edit {
-        background: #FFF url("../images/icons/notes_edit.png") no-repeat;
+        background: #FFF url("/images/icons/notes_edit.png") no-repeat;
       }
 
       &.phone-book-search {
-        background: #FFF url("../images/icons/phone_book_search.png") no-repeat;
+        background: #FFF url("/images/icons/phone_book_search.png") no-repeat;
       }
 
       &.chart {
-        background: #FFF url("../images/icons/chart.png") no-repeat;
+        background: #FFF url("/images/icons/chart.png") no-repeat;
       }
 
       &.users {
-        background: #FFF url("../images/icons/users.png") no-repeat;
+        background: #FFF url("/images/icons/users.png") no-repeat;
       }
 
       &.mail-open {
-        background: #FFF url("../images/icons/mail_open.png") no-repeat;
+        background: #FFF url("/images/icons/mail_open.png") no-repeat;
       }
       
       &.process-accept {
-        background: #FFF url("../images/icons/process_accept.png") no-repeat;
+        background: #FFF url("/images/icons/process_accept.png") no-repeat;
       }
 
       &.light-bulb {
-        background: #FFF url("../images/icons/light_bulb.png") no-repeat;
+        background: #FFF url("/images/icons/light_bulb.png") no-repeat;
       }
 
       &.photo {
-        background: #FFF url("../images/icons/photo.png") no-repeat;
+        background: #FFF url("/images/icons/photo.png") no-repeat;
       }
       // http://dryicons.com/free-icons/preview/shine-icon-set/
     }
@@ -135,7 +138,7 @@ div#content {
 
 div#footer {
   margin-top: 25px;
-  background-image: url("../images/bg_footer.jpg");
+  background-image: url("/images/bg_footer.jpg");
   color: #C6DCB9;
   text-align: center;
   
@@ -145,13 +148,12 @@ div#footer {
   
   a {
     color: #C6DCB9;
-    text-decoration: none;
   }
 
   div#footer-top {
     width: 100%;
     margin: 0;
     height: 29px;
-    background-image: url("../images/top_footer.jpg");
+    background-image: url("/images/top_footer.jpg");
   }
 }
