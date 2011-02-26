@@ -2,7 +2,8 @@ body {
   font-family: Lucida Grande,Arial,Helvetica,sans-serif; }
 
 a {
-  text-decoration: none !important; }
+  text-decoration: none !important;
+  color: #478323; }
 
 p.button:hover {
   background: -moz-linear-gradient(top, #ff7100, #ff9640);
