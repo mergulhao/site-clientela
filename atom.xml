@@ -1,0 +1,27 @@
+---
+layout: nil
+---
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+ <title>CRM. Blog. Gestão de Relacionamento para Empresas e Profissionais Liberais. Clientela.</title>
+ <link href="http://clientela.com.br/atom.xml" rel="self"/>
+ <link href="http://clientela.com.br/"/>
+ <updated>{{ site.time | date_to_xmlschema }}</updated>
+ <id>http://clientela.com.br/</id>
+ <author>
+   <name>Clientela. Gestão de Relacionamento para Empresas e Profissionais Liberais.</name>
+   <email>contato@clientela.com.br</email>
+ </author>
+
+ {% for post in site.posts %}
+ <entry>
+   <title>{{ post.title }}</title>
+   <link href="http://clientela.com.br{{ post.url }}"/>
+   <updated>{{ post.date | date_to_xmlschema }}</updated>
+   <id>http://clientela.com.br{{ post.id }}</id>
+   <content type="html">{{ post.content | xml_escape }}</content>
+ </entry>
+ {% endfor %}
+
+</feed>
