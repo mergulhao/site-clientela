@@ -2,27 +2,43 @@ body {
   font-family: Lucida Grande,Arial,Helvetica,sans-serif; }
 
 a {
-  text-decoration: none !important;
-  color: #478323; }
+  text-decoration: none !important; }
 
 p.button:hover {
-  background: -moz-linear-gradient(top, #ff7100, #ff9640);
-  background: -webkit-gradient(linear, left top, left bottom, from(#ff7100), to(#ff9640)); }
+  background: -moz-linear-gradient(top, #ffd866, #ff7e00);
+  background: -webkit-gradient(linear, left top, left bottom, from(#ffd866), to(#ff7e00)); }
 
 p.button {
   display: table;
-  background-color: #FF9640;
   padding: 10px 20px;
-  border: 2px solid #FF7100;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
-  -moz-box-shadow: 3px 3px 0.1em #999;
-  -webkit-box-shadow: 3px 3px 0.1em #999;
-  background: -moz-linear-gradient(top, #ff9640, #ff7100);
-  background: -webkit-gradient(linear, left top, left bottom, from(#ff9640), to(#ff7100)); }
+  background: -moz-linear-gradient(center top, #fbc011, #ff7e00);
+  background: -webkit-gradient(linear, left top, left bottom, from(#fbc011), to(#ff7e00));
+  text-shadow: 0 -1px 0 #c58c0b; }
   p.button a {
     font-weight: normal;
     color: #fff; }
+
+blockquote {
+  margin: 1em 0;
+  padding: 0 0 0 50px;
+  background: transparent url(/images/quote.png) no-repeat 0 0;
+  text-align: left;
+  font-style: italic; }
+
+div#menu {
+  margin: 45px 0 0 0;
+  text-align: right; }
+  div#menu a {
+    font-weight: normal;
+    color: #fff;
+    background-color: #6b6b6b;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    text-shadow: 0 -1px 0 #c58c0b;
+    font-size: 0.8em;
+    padding: 2px 20px; }
 
 div#header {
   margin: 30px auto; }
@@ -72,12 +88,15 @@ div#content {
       margin: 0 20px 40px 0;
       min-height: 90px;
       line-height: 22px; }
+      div#content ul li a {
+        text-decoration: underline !important;
+        color: #3BA3D0; }
       div#content ul li.notes-edit {
         background: white url("/images/icons/notes_edit.png") no-repeat; }
       div#content ul li.phone-book-search {
         background: white url("/images/icons/phone_book_search.png") no-repeat; }
-      div#content ul li.chart {
-        background: white url("/images/icons/chart.png") no-repeat; }
+      div#content ul li.news {
+        background: white url("/images/icons/news.png") no-repeat; }
       div#content ul li.users {
         background: white url("/images/icons/users.png") no-repeat; }
       div#content ul li.mail-open {
@@ -91,15 +110,23 @@ div#content {
 
 div#footer {
   margin-top: 25px;
-  background-image: url("/images/bg_footer.jpg");
-  color: #C6DCB9;
-  text-align: center; }
-  div#footer p {
-    margin: 20px; }
-  div#footer a {
-    color: #C6DCB9; }
+  background-image: url("/images/bg_footer.jpg"); }
   div#footer div#footer-top {
     width: 100%;
     margin: 0;
     height: 29px;
     background-image: url("/images/top_footer.jpg"); }
+  div#footer div.twitter {
+    text-align: center; }
+    div#footer div.twitter a {
+      color: #C6DCB9; }
+    div#footer div.twitter p {
+      margin: 20px; }
+  div#footer div.address {
+    font-size: 0.6em;
+    line-height: 13px;
+    color: #FFF; }
+    div#footer div.address a {
+      color: #C9F76F; }
+    div#footer div.address p {
+      margin: 20px 0; }

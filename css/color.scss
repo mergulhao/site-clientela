@@ -4,31 +4,49 @@ body {
 
 a {
   text-decoration: none !important;
-  color: #478323;
 }
 
 p.button:hover {
-  background: -moz-linear-gradient(top, #FF7100, #FF9640);
-  background: -webkit-gradient(linear, left top, left bottom, from(#FF7100), to(#FF9640));
+  background: -moz-linear-gradient(top, #FFD866, #FF7E00);
+  background: -webkit-gradient(linear, left top, left bottom, from(#FFD866), to(#FF7E00));
 }
 
 p.button {
   display: table;
-  background-color: #FF9640;
   padding: 10px 20px;
-  border: 2px solid #FF7100;
   -webkit-border-radius: 10px; 
   -moz-border-radius: 10px;
-  
-  -moz-box-shadow: 3px 3px 0.1em #999;
-  -webkit-box-shadow: 3px 3px 0.1em #999;
-  
-  background: -moz-linear-gradient(top, #FF9640, #FF7100);
-  background: -webkit-gradient(linear, left top, left bottom, from(#FF9640), to(#FF7100));
+  background: -moz-linear-gradient(center top , #FBC011, #FF7E00);
+  background: -webkit-gradient(linear, left top, left bottom, from(#FBC011), to(#FF7E00));
+  text-shadow: 0 -1px 0 #C58C0B;
 
   a {
     font-weight: normal;
     color: #fff;
+  }
+}
+
+blockquote {
+  margin: 1em 0;
+  padding: 0 0 0 50px;
+  background: transparent url(/images/quote.png) no-repeat 0 0;
+  text-align: left;
+  font-style: italic;
+}
+
+div#menu {
+  margin: 45px 0 0 0;
+  text-align: right;
+  
+  a {
+    font-weight: normal;
+    color: #fff;
+    background-color: #6b6b6b;
+    -webkit-border-radius: 5px; 
+    -moz-border-radius: 5px;
+    text-shadow: 0 -1px 0 #C58C0B;
+    font-size: 0.8em;
+    padding: 2px 20px;
   }
 }
 
@@ -101,6 +119,11 @@ div#content {
       min-height: 90px;
       line-height: 22px;
       
+      a {
+        text-decoration: underline !important;
+        color: #3BA3D0;
+      }
+      
       &.notes-edit {
         background: #FFF url("/images/icons/notes_edit.png") no-repeat;
       }
@@ -109,8 +132,8 @@ div#content {
         background: #FFF url("/images/icons/phone_book_search.png") no-repeat;
       }
 
-      &.chart {
-        background: #FFF url("/images/icons/chart.png") no-repeat;
+      &.news {
+        background: #FFF url("/images/icons/news.png") no-repeat;
       }
 
       &.users {
@@ -140,21 +163,33 @@ div#content {
 div#footer {
   margin-top: 25px;
   background-image: url("/images/bg_footer.jpg");
-  color: #C6DCB9;
-  text-align: center;
-  
-  p {
-    margin: 20px;
-  }
-  
-  a {
-    color: #C6DCB9;
-  }
 
   div#footer-top {
     width: 100%;
     margin: 0;
     height: 29px;
     background-image: url("/images/top_footer.jpg");
+  }
+
+  div.twitter {
+    text-align: center;
+    a {
+      color: #C6DCB9;
+    }
+    p {
+      margin: 20px;
+    }
+  }  
+
+  div.address {
+    font-size: 0.6em;
+    line-height: 13px;
+    color: #FFF;
+    a {
+      color: #C9F76F;
+    }
+    p {
+      margin: 20px 0;
+    }
   }
 }
