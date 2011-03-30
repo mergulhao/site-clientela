@@ -8,11 +8,12 @@ layout: default
     <p class="highlight">Gestão de relacionamento.</p>
     <p>Um cliente liga. Você lembra quando foi a última vez que falou com ele? Lembra o assunto?</p>
     <p><strong>Nós podemos ajudar!</strong></p>
-    <p class="button"><a href="http://app.clientela.com.br/account/new">Crie uma conta <strong>agora</strong> e ganhe <strong>1 mês grátis!</strong></a></p>
+    <!-- p class="button"><a href="http://app.clientela.com.br/account/new">Crie uma conta <strong>agora</strong> e ganhe <strong>1 mês grátis!</strong></a></p-->
+    <p class="button"><a href="/pesquisa">Cadastre-se <strong>agora</strong> e ganhe <strong>3 meses grátis!</strong></a></p>
   </div>
 
   <div class="grid_5">
-    <img src="images/screenshot_1_thumb.png" />
+    <a id="screenshot_1" href="/images/screenshot_1_full.png"><img alt="Screenshot" src="/images/screenshot_1_thumb.png" /></a>
   </div>
   <div class="clear">&nbsp;</div>
 </div>
@@ -55,3 +56,9 @@ layout: default
   </div>
   <div class="clear">&nbsp;</div>
 </div>
+
+<script type="text/javascript">
+	$(document).ready(function() {
+		$("a#screenshot_1").fancybox();
+	});
+</script>

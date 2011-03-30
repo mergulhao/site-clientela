@@ -44,7 +44,6 @@ div#menu {
     background-color: #6b6b6b;
     -webkit-border-radius: 5px; 
     -moz-border-radius: 5px;
-    text-shadow: 0 -1px 0 #C58C0B;
     font-size: 0.8em;
     padding: 2px 20px;
   }
@@ -66,10 +65,8 @@ div#header {
 }
 
 div#banner {
+  background: #FFFFFF url(/images/bg_header.png) repeat-x;
   margin-bottom: 15px;
-  background-color: #D1F2A5;
-  background: -moz-linear-gradient(top, #D1F2A5, #C9F76F, #D1F2A5, #FFF);
-  background: -webkit-gradient(linear, left top, left bottom, from(#D1F2A5), color-stop(0.5, #C9F76F), color-stop(0.5, #D1F2A5), to(#FFF));
   padding: 15px;
 
   p {
@@ -171,7 +168,7 @@ div#footer {
     background-image: url("/images/top_footer.jpg");
   }
 
-  div.twitter {
+  div.twitter, div.siteforte {
     text-align: center;
     a {
       color: #C6DCB9;
@@ -181,7 +178,7 @@ div#footer {
     }
   }  
 
-  div.address {
+  div.address, div.siteforte {
     font-size: 0.6em;
     line-height: 13px;
     color: #FFF;

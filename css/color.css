@@ -36,7 +36,6 @@ div#menu {
     background-color: #6b6b6b;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
-    text-shadow: 0 -1px 0 #c58c0b;
     font-size: 0.8em;
     padding: 2px 20px; }
 
@@ -49,10 +48,8 @@ div#header {
     font-size: 0px; }
 
 div#banner {
+  background: white url(/images/bg_header.png) repeat-x;
   margin-bottom: 15px;
-  background-color: #D1F2A5;
-  background: -moz-linear-gradient(top, #d1f2a5, #c9f76f, #d1f2a5, white);
-  background: -webkit-gradient(linear, left top, left bottom, from(#d1f2a5), color-stop(0.5, #c9f76f), color-stop(0.5, #d1f2a5), to(white));
   padding: 15px; }
   div#banner p {
     font-weight: bold;
@@ -116,17 +113,17 @@ div#footer {
     margin: 0;
     height: 29px;
     background-image: url("/images/top_footer.jpg"); }
-  div#footer div.twitter {
+  div#footer div.twitter, div#footer div.siteforte {
     text-align: center; }
-    div#footer div.twitter a {
+    div#footer div.twitter a, div#footer div.siteforte a {
       color: #C6DCB9; }
-    div#footer div.twitter p {
+    div#footer div.twitter p, div#footer div.siteforte p {
       margin: 20px; }
-  div#footer div.address {
+  div#footer div.address, div#footer div.siteforte {
     font-size: 0.6em;
     line-height: 13px;
     color: #FFF; }
-    div#footer div.address a {
+    div#footer div.address a, div#footer div.siteforte a {
       color: #C9F76F; }
-    div#footer div.address p {
+    div#footer div.address p, div#footer div.siteforte p {
       margin: 20px 0; }
