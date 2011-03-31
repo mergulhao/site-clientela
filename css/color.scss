@@ -120,7 +120,12 @@ div#content {
         text-decoration: underline !important;
         color: #3BA3D0;
       }
-      
+
+      &.accept {
+        background: #FFF url("/images/icons/accept.png") no-repeat;
+        // http://dryicons.com/icon/simplistica/accept/
+      }
+
       &.notes-edit {
         background: #FFF url("/images/icons/notes_edit.png") no-repeat;
       }

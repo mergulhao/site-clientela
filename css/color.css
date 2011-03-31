@@ -88,6 +88,8 @@ div#content {
       div#content ul li a {
         text-decoration: underline !important;
         color: #3BA3D0; }
+      div#content ul li.accept {
+        background: white url("/images/icons/accept.png") no-repeat; }
       div#content ul li.notes-edit {
         background: white url("/images/icons/notes_edit.png") no-repeat; }
       div#content ul li.phone-book-search {
