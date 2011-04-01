@@ -2,36 +2,84 @@ body {
   font-family: Lucida Grande,Arial,Helvetica,sans-serif;
 }
 
+h2 {
+  font-size: 2em;
+  font-weight: bold;
+  color: #fff;
+  line-height: 45px;
+}
+
+h3 {
+  font-size: 1.3em;
+  font-weight: bold;
+  color: #5D923C;
+  margin-bottom: 15px;
+}
+
+.center {
+  text-align: center;
+}
+
+p.right {
+  text-align: right;
+}
+
 a {
   text-decoration: none !important;
 }
 
-p.button:hover {
+a.button:hover {
   background: -moz-linear-gradient(top, #FFD866, #FF7E00);
   background: -webkit-gradient(linear, left top, left bottom, from(#FFD866), to(#FF7E00));
 }
 
-p.button {
+a.button {
   display: table;
-  padding: 10px 20px;
-  -webkit-border-radius: 10px; 
-  -moz-border-radius: 10px;
-  background: -moz-linear-gradient(center top , #FBC011, #FF7E00);
-  background: -webkit-gradient(linear, left top, left bottom, from(#FBC011), to(#FF7E00));
-  text-shadow: 0 -1px 0 #C58C0B;
+  padding: 10px 10px;
+  -webkit-border-radius: 5px; 
+  -moz-border-radius: 5px;
+  background: -moz-linear-gradient(center top , #4B810A, #224C0C);
+  background: -webkit-gradient(linear, left top, left bottom, from(#4B810A), to(#224C0C));
+  border: 4px solid #2F5B0B;
+  text-shadow: 0 1px 3px #C58C0B;
+  width: 100%;
 
-  a {
-    font-weight: normal;
-    color: #fff;
+  p {
+    margin: 0 !important;
+    line-height: 20px !important;
+    text-align: justify !important;
+    font-weight: normal !important;
+    
+    &.line1 {
+      letter-spacing: 0.28em;
+      font-size: 0.6em !important;
+    }
+
+    &.line2 {
+      font-size: 1.5em !important;
+    }
+  }
+
+  img {
+    float: left;
+    margin-right: 10px;
   }
 }
 
 blockquote {
-  margin: 1em 0;
-  padding: 0 0 0 50px;
-  background: transparent url(/images/quote.png) no-repeat 0 0;
+  color: #fff;
+  margin: 1em;
+  padding: 20px;
+  background: transparent url(/images/bg_quote.png) no-repeat 0 0;
   text-align: left;
-  font-style: italic;
+  line-height: 22px;
+  font-size: 0.9em;
+
+  div {
+    font-style: italic;
+    text-align: right;
+    font-size: 0.8em;
+  }
 }
 
 div#menu {
@@ -50,29 +98,41 @@ div#menu {
 }
 
 div#header {
-  margin: 30px auto;
+  margin: 15px auto;
 
   div#logo {
     h1 {
       a {      
         display: block;
         background: #FFF url("/images/logo.png") no-repeat;
-        height: 82px;
+        height: 60px;
         font-size: 0px;
       }
     }
   }
 }
 
+div#banner-under {
+  background: #FFFFFF url(/images/bg_verde.jpg);
+  padding: 25px 0 0 0;
+  
+  p {
+    line-height: 20px;
+    font-size: 0.8em;
+    margin-bottom: 15px;
+  }
+}
+
 div#banner {
-  background: #FFFFFF url(/images/bg_header.png) repeat-x;
-  margin-bottom: 15px;
-  padding: 15px;
+  background: #FFFFFF url(/images/bg_dest_home_bg.jpg) repeat-x;
+  padding-top: 30px;
+  display: block;
+  height: 383px;
 
   p {
     font-weight: bold;
     line-height: 25px;
-    color: #478323;
+    color: #fff;
     font-size: 1.1em;
     margin-bottom: 15px;
     
@@ -91,15 +151,9 @@ div#banner {
 }
 
 div#content {
-  color: #737373;
-  
-  h3 {
-    margin: 15px 0;
-    padding: 8px 0;
-    border-bottom: 2px solid #D1F2A5;
-    font-size: 2em; 
-  }
-  
+  padding: 25px 0 0 0;
+
+
   p {
     margin-top: 20px;
     line-height: 22px;
@@ -109,12 +163,13 @@ div#content {
     margin-top: 20px;
   
     li {
-      width:180px;
+      width:140px;
       float: left;
       padding-left: 70px;
       margin: 0 20px 40px 0;
       min-height: 90px;
-      line-height: 22px;
+      line-height: 20px;
+      font-size: 0.8em;
       
       a {
         text-decoration: underline !important;
@@ -162,6 +217,38 @@ div#content {
   }
 }
 
+div#under-footer{
+  padding: 10px 0;
+  background-image: url("/images/bg_cinza.jpg");
+  
+  a {
+    color: #fff;
+    font-size: 0.6em;
+  }
+  
+  div.map {
+    div {
+      margin-left: 50px;
+      
+      img {
+        float: left;
+        margin: 5px 10px 0 0;
+      }
+    }
+  }
+  
+  div.siteforte {
+    text-align: center;
+    font-size: 0.6em;
+    line-height: 13px;
+    color: #FFF;
+
+    p {
+      margin: 0;
+    }
+  }
+}
+
 div#footer {
   margin-top: 25px;
   background-image: url("/images/bg_footer.jpg");
@@ -173,25 +260,13 @@ div#footer {
     background-image: url("/images/top_footer.jpg");
   }
 
-  div.twitter, div.siteforte {
+  div.twitter {
     text-align: center;
     a {
-      color: #C6DCB9;
+      color: #FFF;
     }
     p {
       margin: 20px;
-    }
-  }  
-
-  div.address, div.siteforte {
-    font-size: 0.6em;
-    line-height: 13px;
-    color: #FFF;
-    a {
-      color: #C9F76F;
-    }
-    p {
-      margin: 20px 0;
     }
   }
 }
