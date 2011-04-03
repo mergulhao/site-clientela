@@ -16,11 +16,11 @@ h3 {
 .center {
   text-align: center; }
 
-p.right {
+.right {
   text-align: right; }
 
 a {
-  text-decoration: none !important; }
+  text-decoration: none; }
 
 a.button:hover {
   background: -moz-linear-gradient(top, #ffd866, #ff7e00);
@@ -35,11 +35,11 @@ a.button {
   background: -webkit-gradient(linear, left top, left bottom, from(#4b810a), to(#224c0c));
   border: 4px solid #2F5B0B;
   text-shadow: 0 1px 3px #C58C0B;
-  width: 100%; }
+  width: 100%;
+  color: #fff; }
   a.button p {
     margin: 0 !important;
     line-height: 20px !important;
-    text-align: justify !important;
     font-weight: normal !important; }
     a.button p.line1 {
       letter-spacing: 0.28em;
@@ -49,6 +49,11 @@ a.button {
   a.button img {
     float: left;
     margin-right: 10px; }
+
+a.big p {
+  letter-spacing: 0.22em;
+  padding: 8px 0;
+  text-align: center; }
 
 blockquote {
   color: #fff;
@@ -91,6 +96,9 @@ div#banner-under {
     font-size: 0.8em;
     margin-bottom: 15px; }
 
+div.inner {
+  height: 240px !important; }
+
 div#banner {
   background: white url(/images/bg_dest_home_bg.jpg) repeat-x;
   padding-top: 30px;
@@ -105,48 +113,44 @@ div#banner {
     div#banner p strong {
       font-size: 1.3em;
       font-weight: bold; }
-    div#banner p.highlight {
-      font-size: 1.4em;
-      line-height: 38px;
-      color: #737373;
-      margin-bottom: 20px; }
 
 div#content {
   padding: 25px 0 0 0; }
   div#content p {
-    margin-top: 20px;
+    margin: 20px 0;
     line-height: 22px; }
-  div#content ul {
-    margin-top: 20px; }
-    div#content ul li {
-      width: 140px;
-      float: left;
-      padding-left: 70px;
-      margin: 0 20px 40px 0;
-      min-height: 90px;
-      line-height: 20px;
-      font-size: 0.8em; }
-      div#content ul li a {
-        text-decoration: underline !important;
-        color: #3BA3D0; }
-      div#content ul li.accept {
-        background: white url("/images/icons/accept.png") no-repeat; }
-      div#content ul li.notes-edit {
-        background: white url("/images/icons/notes_edit.png") no-repeat; }
-      div#content ul li.phone-book-search {
-        background: white url("/images/icons/phone_book_search.png") no-repeat; }
-      div#content ul li.news {
-        background: white url("/images/icons/news.png") no-repeat; }
-      div#content ul li.users {
-        background: white url("/images/icons/users.png") no-repeat; }
-      div#content ul li.mail-open {
-        background: white url("/images/icons/mail_open.png") no-repeat; }
-      div#content ul li.process-accept {
-        background: white url("/images/icons/process_accept.png") no-repeat; }
-      div#content ul li.light-bulb {
-        background: white url("/images/icons/light_bulb.png") no-repeat; }
-      div#content ul li.photo {
-        background: white url("/images/icons/photo.png") no-repeat; }
+  div#content ul li {
+    float: left;
+    margin: 0 20px 40px 0;
+    line-height: 20px;
+    font-size: 0.8em; }
+  div#content ul.internal-highlights img {
+    float: left; }
+  div#content ul.internal-highlights li {
+    width: 450px; }
+  div#content ul.home-highlights li {
+    width: 140px;
+    padding-left: 70px;
+    min-height: 90px; }
+    div#content ul.home-highlights li a {
+      text-decoration: underline !important;
+      color: #3BA3D0; }
+    div#content ul.home-highlights li.notes-edit {
+      background: white url("/images/icons/notes_edit.png") no-repeat; }
+    div#content ul.home-highlights li.phone-book-search {
+      background: white url("/images/icons/phone_book_search.png") no-repeat; }
+    div#content ul.home-highlights li.news {
+      background: white url("/images/icons/news.png") no-repeat; }
+    div#content ul.home-highlights li.users {
+      background: white url("/images/icons/users.png") no-repeat; }
+    div#content ul.home-highlights li.mail-open {
+      background: white url("/images/icons/mail_open.png") no-repeat; }
+    div#content ul.home-highlights li.process-accept {
+      background: white url("/images/icons/process_accept.png") no-repeat; }
+    div#content ul.home-highlights li.light-bulb {
+      background: white url("/images/icons/light_bulb.png") no-repeat; }
+    div#content ul.home-highlights li.photo {
+      background: white url("/images/icons/photo.png") no-repeat; }
 
 div#under-footer {
   padding: 10px 0;
