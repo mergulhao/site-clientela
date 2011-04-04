@@ -22,35 +22,37 @@ h3 {
 a {
   text-decoration: none; }
 
-a.button:hover {
+div.button:hover {
+  background: #FF7E00;
   background: -moz-linear-gradient(top, #ffd866, #ff7e00);
   background: -webkit-gradient(linear, left top, left bottom, from(#ffd866), to(#ff7e00)); }
 
-a.button {
+div.button {
   display: table;
-  padding: 10px 10px;
+  padding: 10px;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
+  background: #4B810A;
   background: -moz-linear-gradient(center top, #4b810a, #224c0c);
   background: -webkit-gradient(linear, left top, left bottom, from(#4b810a), to(#224c0c));
   border: 4px solid #2F5B0B;
   text-shadow: 0 1px 3px #C58C0B;
-  width: 100%;
-  color: #fff; }
-  a.button p {
+  width: 100%; }
+  div.button p {
     margin: 0 !important;
     line-height: 20px !important;
-    font-weight: normal !important; }
-    a.button p.line1 {
+    font-weight: normal !important;
+    color: #fff; }
+    div.button p.line1 {
       letter-spacing: 0.28em;
       font-size: 0.6em !important; }
-    a.button p.line2 {
+    div.button p.line2 {
       font-size: 1.5em !important; }
-  a.button img {
+  div.button img {
     float: left;
     margin-right: 10px; }
 
-a.big p {
+div.big p {
   letter-spacing: 0.22em;
   padding: 8px 0;
   text-align: center; }
