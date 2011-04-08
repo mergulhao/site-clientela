@@ -101,6 +101,9 @@ div#banner-under {
 div.inner {
   height: 240px !important; }
 
+div.mini {
+  height: 50px !important; }
+
 div#banner {
   background: white url(/images/bg_dest_home_bg.jpg) repeat-x;
   padding-top: 30px;
@@ -115,6 +118,14 @@ div#banner {
     div#banner p strong {
       font-size: 1.3em;
       font-weight: bold; }
+
+div#static {
+  line-height: 30px; }
+  div#static p {
+    margin: 20px 0; }
+  div#static ul {
+    list-style-type: disc;
+    margin: 0 0 20px 40px; }
 
 div#content {
   padding: 25px 0 0 0; }
