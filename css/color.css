@@ -91,7 +91,7 @@ div#header {
     font-size: 0px; }
 
 div#banner-under {
-  background: white url(/images/bg_verde.jpg);
+  background: white url(/images/bg_middle_header.jpg);
   padding: 25px 0 0 0; }
   div#banner-under p {
     line-height: 20px;
@@ -105,7 +105,7 @@ div.mini {
   height: 50px !important; }
 
 div#banner {
-  background: white url(/images/bg_dest_home_bg.jpg) repeat-x;
+  background: white url(/images/bg_header.jpg) repeat-x;
   padding-top: 30px;
   display: block;
   height: 383px; }
@@ -167,7 +167,7 @@ div#content {
 
 div#under-footer {
   padding: 10px 0;
-  background-image: url("/images/bg_cinza.jpg"); }
+  background-image: url("/images/bg_lower_footer.jpg"); }
   div#under-footer a {
     color: #fff;
     font-size: 0.6em; }
