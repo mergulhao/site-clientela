@@ -1,0 +1,41 @@
+GIT
+  remote: git@github.com:mergulhao/jekyll.git
+  revision: 6461552eef71cf164577566fc4bf669aa7a2bbcc
+  specs:
+    jekyll (0.10.0)
+      albino (>= 1.3.2)
+      classifier (>= 1.3.1)
+      directory_watcher (>= 1.1.1)
+      kramdown (>= 0.13.2)
+      liquid (>= 1.9.0)
+      maruku (>= 0.5.9)
+
+GEM
+  remote: http://rubygems.org/
+  specs:
+    albino (1.3.3)
+      posix-spawn (>= 0.3.6)
+    chunky_png (1.2.0)
+    classifier (1.3.3)
+      fast-stemmer (>= 1.0.0)
+    compass (0.11.1)
+      chunky_png (~> 1.1)
+      fssm (>= 0.2.7)
+      sass (~> 3.1)
+    directory_watcher (1.4.0)
+    fast-stemmer (1.0.0)
+    fssm (0.2.7)
+    kramdown (0.13.3)
+    liquid (2.2.2)
+    maruku (0.6.0)
+      syntax (>= 1.0.0)
+    posix-spawn (0.3.6)
+    sass (3.1.1)
+    syntax (1.0.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  compass
+  jekyll!

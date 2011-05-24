@@ -1,0 +1,2 @@
+rvm ruby-1.9.2-p180@site-clientela
+alias jekyll="bundle exec jekyll"
