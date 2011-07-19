@@ -1,0 +1,11 @@
+/* line 1, ../_sass/wufoo.scss */
+#logo a {
+  background-image: url("http://clientela.com.br/images/logo.png");
+  min-height: 0;
+  height: 51px;
+}
+
+/* line 2, ../_sass/wufoo.scss */
+#logo {
+  padding: 14px;
+}
