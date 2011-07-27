@@ -88,31 +88,11 @@
     <div class="clear">&nbsp;</div>
   </div>
 </div>
-
 <script type="text/javascript">
   $(document).ready(function() {
     $("a[rel=slideshow]").fancybox();
   });
 </script>
-
-<script type="text/javascript">
-
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-16326763-2']);
-  _gaq.push(['_trackPageview']);
-
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
-
-</script>
-
-<script type="text/javascript">
-document.write(unescape("%3Cscript src='" + ((document.location.protocol=="https:")?"https://snapabug.appspot.com":"http://www.snapengage.com") + "/snapabug.js' type='text/javascript'%3E%3C/script%3E"));</script><script type="text/javascript">
-SnapABug.setLocale("pt");
-SnapABug.init("7155fbc7-3140-4272-8f90-d3276a675767");
-</script>
+{% include trackers.html %}
 </body>
 </html>
