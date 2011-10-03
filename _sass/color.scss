@@ -209,9 +209,9 @@ div#content {
 
   ul.home-highlights {
     li {
-      width:140px;
-      padding-left: 70px;
-      min-height: 90px;
+      width: 200px;
+      padding-left: 80px;
+      min-height: 100px;
       
       a {
         text-decoration: underline !important;
@@ -248,6 +248,10 @@ div#content {
 
       &.photo {
         background: #FFF url("/images/icons/photo.png") no-repeat;
+      }
+
+      &.chart {
+        background: #FFF url("/images/icons/chart.png") no-repeat;
       }
       // http://dryicons.com/free-icons/preview/shine-icon-set/
     }

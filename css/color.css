@@ -214,9 +214,9 @@ div#content ul.internal-highlights li {
 }
 /* line 211, ../_sass/color.scss */
 div#content ul.home-highlights li {
-  width: 140px;
-  padding-left: 70px;
-  min-height: 90px;
+  width: 200px;
+  padding-left: 80px;
+  min-height: 100px;
 }
 /* line 216, ../_sass/color.scss */
 div#content ul.home-highlights li a {
@@ -255,59 +255,63 @@ div#content ul.home-highlights li.light-bulb {
 div#content ul.home-highlights li.photo {
   background: white url("/images/icons/photo.png") no-repeat;
 }
+/* line 253, ../_sass/color.scss */
+div#content ul.home-highlights li.chart {
+  background: white url("/images/icons/chart.png") no-repeat;
+}
 
-/* line 257, ../_sass/color.scss */
+/* line 261, ../_sass/color.scss */
 div#under-footer {
   padding: 10px 0;
   background-image: url("/images/bg_lower_footer.jpg");
 }
-/* line 261, ../_sass/color.scss */
+/* line 265, ../_sass/color.scss */
 div#under-footer a {
   color: #fff;
   font-size: 0.6em;
 }
-/* line 267, ../_sass/color.scss */
+/* line 271, ../_sass/color.scss */
 div#under-footer div.map div {
   margin-left: 50px;
 }
-/* line 270, ../_sass/color.scss */
+/* line 274, ../_sass/color.scss */
 div#under-footer div.map div img {
   float: left;
   margin: 5px 10px 0 0;
 }
-/* line 277, ../_sass/color.scss */
+/* line 281, ../_sass/color.scss */
 div#under-footer div.siteforte {
   text-align: center;
   font-size: 0.6em;
   line-height: 13px;
   color: #FFF;
 }
-/* line 283, ../_sass/color.scss */
+/* line 287, ../_sass/color.scss */
 div#under-footer div.siteforte p {
   margin: 0;
 }
 
-/* line 289, ../_sass/color.scss */
+/* line 293, ../_sass/color.scss */
 div#footer {
   margin-top: 25px;
   background-image: url("/images/bg_footer.jpg");
 }
-/* line 293, ../_sass/color.scss */
+/* line 297, ../_sass/color.scss */
 div#footer div#footer-top {
   width: 100%;
   margin: 0;
   height: 29px;
   background-image: url("/images/top_footer.jpg");
 }
-/* line 300, ../_sass/color.scss */
+/* line 304, ../_sass/color.scss */
 div#footer div.twitter {
   text-align: center;
 }
-/* line 302, ../_sass/color.scss */
+/* line 306, ../_sass/color.scss */
 div#footer div.twitter a {
   color: #FFF;
 }
-/* line 305, ../_sass/color.scss */
+/* line 309, ../_sass/color.scss */
 div#footer div.twitter p {
   margin: 20px;
 }
