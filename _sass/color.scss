@@ -1,3 +1,5 @@
+@font-face { font-family: Arvo; font-weight: bold; src: url('/fonts/Arvo-Bold.ttf'); }
+
 body {
   font-family: Lucida Grande,Arial,Helvetica,sans-serif;
 }
@@ -255,6 +257,129 @@ div#content {
       }
       // http://dryicons.com/free-icons/preview/shine-icon-set/
     }
+  }
+}
+
+div#plans {
+  div#plans-wrapper {
+    padding-left: 95px;
+  }
+
+  h1 {
+    font-family: "Helvetica Neue", Lucida Grande, Helvetica, Arial, "Sans Serif";
+    font-size: 2.5em;
+    text-align: center;
+    letter-spacing: -2px;
+    font-weight: normal;
+    text-shadow: white 0px 1px 0px;
+  }
+  h2 {
+    font-family: "Helvetica Neue", Lucida Grande, Helvetica, Arial, "Sans Serif";
+    font-size: 1.5em;
+    text-align: center;
+
+    font-weight: normal;
+    text-shadow: white 0px 1px 0px;
+    color: #000;
+  }
+  
+  div.plan {
+    h3 {
+      font-size: 1.1em;
+      margin: 3px;
+      font-family: Arvo;
+      color: #FFF;
+    }
+    h4 {
+      font-size: 1.6em;
+      font-family: Arvo;
+      span {
+        font-size: 0.6em;
+      }
+    }
+    h5 {
+      color: #333;
+      font-size: 1.6em;
+      margin: 0;
+      padding: 0 0px 10px 10px;
+      border-bottom: 1px solid black;
+      font-family: Arvo;
+    }
+    div.header {
+      color: white;
+      text-align: center;
+      padding: 18px 0px;
+      background: #CCC;
+      text-shadow: black 0px 1px 0px;
+    }
+
+    div.content {
+      padding: 20px 10px 0;
+      
+      ul {
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        li {
+          float: none;
+          color: #333;
+          font-size: 0.9em;
+          padding: 10px;
+          margin: 0;
+          border-bottom: 1px solid #B6B6B6;
+        }
+      }
+    }
+
+    a.signup {
+      color: white;
+      font-size: 1.2em;
+      font-weight: bold;
+      text-align: center;
+      text-decoration: none;
+      text-transform: uppercase;
+      display: block;
+      padding: 10px;
+      margin: 10px 40px 20px;
+      background: #FF8F00 url(/images/plans/btn-submitForward.jpg) repeat-x top left;
+      border-bottom: 1px solid #999;
+      border-radius: 5px;
+      text-shadow: #333 0px 1px 0px;
+      font-family: Arvo;
+    }
+
+    &.customer {
+      div.header {
+        background: #F2B827 url("/images/plans/bkg-yellow.jpg") repeat-x bottom left;
+      }
+    }
+
+    &.sales {
+      div.header {
+        background: #F3742F url("/images/plans/bkg-orange.jpg") repeat-x bottom left;
+      }
+    }
+
+    &.all {
+      div.header {
+        background: #187FC0 url("/images/plans/bkg-blue.jpg") repeat-x bottom left;
+      }
+      margin: -10px -10px 0px;
+      border: 5px solid white;
+      position: relative;
+      z-index: 200;
+      -moz-box-shadow: 0px 5px 25px #000000;
+      -webkit-box-shadow: 0px 5px 25px #000000;
+      box-shadow: 0px 5px 25px #000000;
+    }
+
+    background: #F8F8F8 url("/images/plans/bkg-gray.jpg") repeat-x bottom left;
+    border: 2px solid white;
+    position: relative;
+    float: left;
+    width: 250px;
+    overflow: hidden;
+    z-index: 100;
   }
 }
 
