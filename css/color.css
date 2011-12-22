@@ -66,30 +66,31 @@ div.button p {
   line-height: 20px !important;
   font-weight: normal !important;
   color: #fff;
+  text-align: center;
 }
-/* line 60, ../_sass/color.scss */
+/* line 61, ../_sass/color.scss */
 div.button p.line1 {
   letter-spacing: 0.28em;
   font-size: 0.6em !important;
 }
-/* line 65, ../_sass/color.scss */
+/* line 66, ../_sass/color.scss */
 div.button p.line2 {
   font-size: 1.5em !important;
 }
-/* line 70, ../_sass/color.scss */
+/* line 71, ../_sass/color.scss */
 div.button img {
   float: left;
   margin-right: 10px;
 }
 
-/* line 77, ../_sass/color.scss */
+/* line 78, ../_sass/color.scss */
 div.big p {
   letter-spacing: 0.22em;
   padding: 8px 0;
   text-align: center;
 }
 
-/* line 84, ../_sass/color.scss */
+/* line 85, ../_sass/color.scss */
 blockquote {
   color: #fff;
   margin: 1em;
@@ -99,19 +100,19 @@ blockquote {
   line-height: 22px;
   font-size: 0.9em;
 }
-/* line 93, ../_sass/color.scss */
+/* line 94, ../_sass/color.scss */
 blockquote div {
   font-style: italic;
   text-align: right;
   font-size: 0.8em;
 }
 
-/* line 100, ../_sass/color.scss */
+/* line 101, ../_sass/color.scss */
 div#menu {
   margin: 45px 0 0 0;
   text-align: right;
 }
-/* line 104, ../_sass/color.scss */
+/* line 105, ../_sass/color.scss */
 div#menu a {
   font-weight: normal;
   color: #fff;
@@ -122,11 +123,11 @@ div#menu a {
   padding: 2px 20px;
 }
 
-/* line 115, ../_sass/color.scss */
+/* line 116, ../_sass/color.scss */
 div#header {
   margin: 15px auto;
 }
-/* line 120, ../_sass/color.scss */
+/* line 121, ../_sass/color.scss */
 div#header div#logo h1 a {
   display: block;
   background: white url("/images/logo.png") no-repeat;
@@ -134,36 +135,36 @@ div#header div#logo h1 a {
   font-size: 0px;
 }
 
-/* line 130, ../_sass/color.scss */
+/* line 131, ../_sass/color.scss */
 div#banner-under {
   background: white url(/images/bg_middle_header.jpg);
   padding: 25px 0 0 0;
 }
-/* line 134, ../_sass/color.scss */
+/* line 135, ../_sass/color.scss */
 div#banner-under p {
   line-height: 20px;
   font-size: 0.8em;
   margin-bottom: 15px;
 }
 
-/* line 141, ../_sass/color.scss */
+/* line 142, ../_sass/color.scss */
 div.inner {
   height: 250px !important;
 }
 
-/* line 145, ../_sass/color.scss */
+/* line 146, ../_sass/color.scss */
 div.mini {
   height: 50px !important;
 }
 
-/* line 149, ../_sass/color.scss */
+/* line 150, ../_sass/color.scss */
 div#banner {
   background: white url(/images/bg_header.jpg) repeat-x;
   padding-top: 30px;
   display: block;
   height: 383px;
 }
-/* line 155, ../_sass/color.scss */
+/* line 156, ../_sass/color.scss */
 div#banner p {
   font-weight: bold;
   line-height: 25px;
@@ -171,97 +172,97 @@ div#banner p {
   font-size: 1.1em;
   margin-bottom: 15px;
 }
-/* line 162, ../_sass/color.scss */
+/* line 163, ../_sass/color.scss */
 div#banner p strong {
   font-size: 1.3em;
   font-weight: bold;
 }
 
-/* line 169, ../_sass/color.scss */
+/* line 170, ../_sass/color.scss */
 div#static {
   line-height: 30px;
 }
-/* line 172, ../_sass/color.scss */
+/* line 173, ../_sass/color.scss */
 div#static p {
   margin: 20px 0;
 }
-/* line 176, ../_sass/color.scss */
+/* line 177, ../_sass/color.scss */
 div#static ul {
   list-style-type: disc;
   margin: 0 0 20px 40px;
 }
 
-/* line 182, ../_sass/color.scss */
+/* line 183, ../_sass/color.scss */
 div#content {
   padding: 25px 0 0 0;
 }
-/* line 185, ../_sass/color.scss */
+/* line 186, ../_sass/color.scss */
 div#content p {
   margin: 20px 0;
   line-height: 22px;
 }
-/* line 191, ../_sass/color.scss */
+/* line 192, ../_sass/color.scss */
 div#content ul li {
   float: left;
   margin: 0 20px 40px 0;
   line-height: 20px;
   font-size: 0.8em;
 }
-/* line 200, ../_sass/color.scss */
+/* line 201, ../_sass/color.scss */
 div#content ul.internal-highlights img {
   float: left;
   margin-right: 10px;
   padding: 5px;
   border: 1px solid #CCC;
 }
-/* line 207, ../_sass/color.scss */
+/* line 208, ../_sass/color.scss */
 div#content ul.internal-highlights li {
   width: 450px;
 }
-/* line 213, ../_sass/color.scss */
+/* line 214, ../_sass/color.scss */
 div#content ul.home-highlights li {
   width: 200px;
   padding-left: 80px;
   min-height: 100px;
 }
-/* line 218, ../_sass/color.scss */
+/* line 219, ../_sass/color.scss */
 div#content ul.home-highlights li a {
   text-decoration: underline !important;
   color: #3BA3D0;
 }
-/* line 223, ../_sass/color.scss */
+/* line 224, ../_sass/color.scss */
 div#content ul.home-highlights li.notes-edit {
   background: white url("/images/icons/notes_edit.png") no-repeat;
 }
-/* line 227, ../_sass/color.scss */
+/* line 228, ../_sass/color.scss */
 div#content ul.home-highlights li.phone-book-search {
   background: white url("/images/icons/phone_book_search.png") no-repeat;
 }
-/* line 231, ../_sass/color.scss */
+/* line 232, ../_sass/color.scss */
 div#content ul.home-highlights li.news {
   background: white url("/images/icons/news.png") no-repeat;
 }
-/* line 235, ../_sass/color.scss */
+/* line 236, ../_sass/color.scss */
 div#content ul.home-highlights li.users {
   background: white url("/images/icons/users.png") no-repeat;
 }
-/* line 239, ../_sass/color.scss */
+/* line 240, ../_sass/color.scss */
 div#content ul.home-highlights li.mail-open {
   background: white url("/images/icons/mail_open.png") no-repeat;
 }
-/* line 243, ../_sass/color.scss */
+/* line 244, ../_sass/color.scss */
 div#content ul.home-highlights li.process-accept {
   background: white url("/images/icons/process_accept.png") no-repeat;
 }
-/* line 247, ../_sass/color.scss */
+/* line 248, ../_sass/color.scss */
 div#content ul.home-highlights li.light-bulb {
   background: white url("/images/icons/light_bulb.png") no-repeat;
 }
-/* line 251, ../_sass/color.scss */
+/* line 252, ../_sass/color.scss */
 div#content ul.home-highlights li.photo {
   background: white url("/images/icons/photo.png") no-repeat;
 }
-/* line 255, ../_sass/color.scss */
+/* line 256, ../_sass/color.scss */
 div#content ul.home-highlights li.chart {
   background: white url("/images/icons/chart.png") no-repeat;
 }
