@@ -75,10 +75,12 @@
       <p>
         <div id="selo_siteforte">
           <script type="text/javascript">
-            var _sfaccount = "clientela.com.br";
+            var _sfurl = "clientela.com.br";
+            var _sfid = "139";
+            var _sfhttptls = ('https:' == document.location.protocol ? 'https://' : 'http://');
             (function() {
               var _sfa = document.createElement('script'); _sfa.type = 'text/javascript';
-              _sfa.src = 'https://siteforte.com.br/selo.js?_sfaccount='+_sfaccount;
+              _sfa.src = _sfhttptls + 'siteforte.com.br/selo.js';
               var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(_sfa, s);
             })();
           </script>
