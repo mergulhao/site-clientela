@@ -134,37 +134,50 @@ div#header div#logo h1 a {
   height: 60px;
   font-size: 0px;
 }
+/* line 129, ../_sass/color.scss */
+div#header div#logo-center {
+  width: 100%;
+}
+/* line 133, ../_sass/color.scss */
+div#header div#logo-center h1 a {
+  margin: 0 auto;
+  display: block;
+  background: white url("/images/logo.png") no-repeat;
+  width: 233px;
+  height: 60px;
+  font-size: 0px;
+}
 
-/* line 131, ../_sass/color.scss */
+/* line 145, ../_sass/color.scss */
 div#banner-under {
   background: white url(/images/bg_middle_header.jpg);
   padding: 25px 0 0 0;
 }
-/* line 135, ../_sass/color.scss */
+/* line 149, ../_sass/color.scss */
 div#banner-under p {
   line-height: 20px;
   font-size: 0.8em;
   margin-bottom: 15px;
 }
 
-/* line 142, ../_sass/color.scss */
+/* line 156, ../_sass/color.scss */
 div.inner {
   height: 250px !important;
 }
 
-/* line 146, ../_sass/color.scss */
+/* line 160, ../_sass/color.scss */
 div.mini {
   height: 50px !important;
 }
 
-/* line 150, ../_sass/color.scss */
+/* line 164, ../_sass/color.scss */
 div#banner {
   background: white url(/images/bg_header.jpg) repeat-x;
   padding-top: 30px;
   display: block;
   height: 383px;
 }
-/* line 156, ../_sass/color.scss */
+/* line 170, ../_sass/color.scss */
 div#banner p {
   font-weight: bold;
   line-height: 25px;
@@ -172,106 +185,106 @@ div#banner p {
   font-size: 1.1em;
   margin-bottom: 15px;
 }
-/* line 163, ../_sass/color.scss */
+/* line 177, ../_sass/color.scss */
 div#banner p strong {
   font-size: 1.3em;
   font-weight: bold;
 }
 
-/* line 170, ../_sass/color.scss */
+/* line 184, ../_sass/color.scss */
 div#static {
   line-height: 30px;
 }
-/* line 173, ../_sass/color.scss */
+/* line 187, ../_sass/color.scss */
 div#static p {
   margin: 20px 0;
 }
-/* line 177, ../_sass/color.scss */
+/* line 191, ../_sass/color.scss */
 div#static ul {
   list-style-type: disc;
   margin: 0 0 20px 40px;
 }
 
-/* line 183, ../_sass/color.scss */
+/* line 197, ../_sass/color.scss */
 div#content {
   padding: 25px 0 0 0;
 }
-/* line 186, ../_sass/color.scss */
+/* line 200, ../_sass/color.scss */
 div#content p {
   margin: 20px 0;
   line-height: 22px;
 }
-/* line 192, ../_sass/color.scss */
+/* line 206, ../_sass/color.scss */
 div#content ul li {
   float: left;
   margin: 0 20px 40px 0;
   line-height: 20px;
   font-size: 0.8em;
 }
-/* line 201, ../_sass/color.scss */
+/* line 215, ../_sass/color.scss */
 div#content ul.internal-highlights img {
   float: left;
   margin-right: 10px;
   padding: 5px;
   border: 1px solid #CCC;
 }
-/* line 208, ../_sass/color.scss */
+/* line 222, ../_sass/color.scss */
 div#content ul.internal-highlights li {
   width: 450px;
 }
-/* line 214, ../_sass/color.scss */
+/* line 228, ../_sass/color.scss */
 div#content ul.home-highlights li {
   width: 200px;
   padding-left: 80px;
   min-height: 100px;
 }
-/* line 219, ../_sass/color.scss */
+/* line 233, ../_sass/color.scss */
 div#content ul.home-highlights li a {
   text-decoration: underline !important;
   color: #3BA3D0;
 }
-/* line 224, ../_sass/color.scss */
+/* line 238, ../_sass/color.scss */
 div#content ul.home-highlights li.notes-edit {
   background: white url("/images/icons/notes_edit.png") no-repeat;
 }
-/* line 228, ../_sass/color.scss */
+/* line 242, ../_sass/color.scss */
 div#content ul.home-highlights li.phone-book-search {
   background: white url("/images/icons/phone_book_search.png") no-repeat;
 }
-/* line 232, ../_sass/color.scss */
+/* line 246, ../_sass/color.scss */
 div#content ul.home-highlights li.news {
   background: white url("/images/icons/news.png") no-repeat;
 }
-/* line 236, ../_sass/color.scss */
+/* line 250, ../_sass/color.scss */
 div#content ul.home-highlights li.users {
   background: white url("/images/icons/users.png") no-repeat;
 }
-/* line 240, ../_sass/color.scss */
+/* line 254, ../_sass/color.scss */
 div#content ul.home-highlights li.mail-open {
   background: white url("/images/icons/mail_open.png") no-repeat;
 }
-/* line 244, ../_sass/color.scss */
+/* line 258, ../_sass/color.scss */
 div#content ul.home-highlights li.process-accept {
   background: white url("/images/icons/process_accept.png") no-repeat;
 }
-/* line 248, ../_sass/color.scss */
+/* line 262, ../_sass/color.scss */
 div#content ul.home-highlights li.light-bulb {
   background: white url("/images/icons/light_bulb.png") no-repeat;
 }
-/* line 252, ../_sass/color.scss */
+/* line 266, ../_sass/color.scss */
 div#content ul.home-highlights li.photo {
   background: white url("/images/icons/photo.png") no-repeat;
 }
-/* line 256, ../_sass/color.scss */
+/* line 270, ../_sass/color.scss */
 div#content ul.home-highlights li.chart {
   background: white url("/images/icons/chart.png") no-repeat;
 }
 
-/* line 265, ../_sass/color.scss */
+/* line 279, ../_sass/color.scss */
 div#plans div#plans-wrapper {
   padding-left: 95px;
 }
-/* line 269, ../_sass/color.scss */
+/* line 283, ../_sass/color.scss */
 div#plans h1 {
   font-family: "Helvetica Neue", Lucida Grande, Helvetica, Arial, "Sans Serif";
   font-size: 2.5em;
@@ -280,7 +293,7 @@ div#plans h1 {
   font-weight: normal;
   text-shadow: white 0px 1px 0px;
 }
-/* line 277, ../_sass/color.scss */
+/* line 291, ../_sass/color.scss */
 div#plans h2 {
   font-family: "Helvetica Neue", Lucida Grande, Helvetica, Arial, "Sans Serif";
   font-size: 1.5em;
@@ -289,7 +302,7 @@ div#plans h2 {
   text-shadow: white 0px 1px 0px;
   color: #000;
 }
-/* line 287, ../_sass/color.scss */
+/* line 301, ../_sass/color.scss */
 div#plans div.plan {
   background: #f8f8f8 url("/images/plans/bkg-gray.jpg") repeat-x bottom left;
   border: 2px solid white;
@@ -299,23 +312,23 @@ div#plans div.plan {
   overflow: hidden;
   z-index: 100;
 }
-/* line 288, ../_sass/color.scss */
+/* line 302, ../_sass/color.scss */
 div#plans div.plan h3 {
   font-size: 1.1em;
   margin: 3px;
   font-family: Arvo;
   color: #FFF;
 }
-/* line 294, ../_sass/color.scss */
+/* line 308, ../_sass/color.scss */
 div#plans div.plan h4 {
   font-size: 1.6em;
   font-family: Arvo;
 }
-/* line 297, ../_sass/color.scss */
+/* line 311, ../_sass/color.scss */
 div#plans div.plan h4 span {
   font-size: 0.6em;
 }
-/* line 301, ../_sass/color.scss */
+/* line 315, ../_sass/color.scss */
 div#plans div.plan h5 {
   color: #333;
   font-size: 1.6em;
@@ -324,7 +337,7 @@ div#plans div.plan h5 {
   border-bottom: 1px solid black;
   font-family: Arvo;
 }
-/* line 309, ../_sass/color.scss */
+/* line 323, ../_sass/color.scss */
 div#plans div.plan div.header {
   color: white;
   text-align: center;
@@ -332,17 +345,17 @@ div#plans div.plan div.header {
   background: #CCC;
   text-shadow: black 0px 1px 0px;
 }
-/* line 317, ../_sass/color.scss */
+/* line 331, ../_sass/color.scss */
 div#plans div.plan div.content {
   padding: 20px 10px 0;
 }
-/* line 320, ../_sass/color.scss */
+/* line 334, ../_sass/color.scss */
 div#plans div.plan div.content ul {
   padding: 0;
   margin: 0;
   list-style: none;
 }
-/* line 324, ../_sass/color.scss */
+/* line 338, ../_sass/color.scss */
 div#plans div.plan div.content ul li {
   float: none;
   color: #333;
@@ -351,7 +364,7 @@ div#plans div.plan div.content ul li {
   margin: 0;
   border-bottom: 1px solid #B6B6B6;
 }
-/* line 335, ../_sass/color.scss */
+/* line 349, ../_sass/color.scss */
 div#plans div.plan a.signup {
   color: white;
   font-size: 1.2em;
@@ -368,15 +381,15 @@ div#plans div.plan a.signup {
   text-shadow: #333 0px 1px 0px;
   font-family: Arvo;
 }
-/* line 353, ../_sass/color.scss */
+/* line 367, ../_sass/color.scss */
 div#plans div.plan.customer div.header {
   background: #f2b827 url("/images/plans/bkg-yellow.jpg") repeat-x bottom left;
 }
-/* line 359, ../_sass/color.scss */
+/* line 373, ../_sass/color.scss */
 div#plans div.plan.sales div.header {
   background: #f3742f url("/images/plans/bkg-orange.jpg") repeat-x bottom left;
 }
-/* line 364, ../_sass/color.scss */
+/* line 378, ../_sass/color.scss */
 div#plans div.plan.all {
   margin: -10px -10px 0px;
   border: 5px solid white;
@@ -386,63 +399,63 @@ div#plans div.plan.all {
   -webkit-box-shadow: 0px 5px 25px #000000;
   box-shadow: 0px 5px 25px #000000;
 }
-/* line 365, ../_sass/color.scss */
+/* line 379, ../_sass/color.scss */
 div#plans div.plan.all div.header {
   background: #187fc0 url("/images/plans/bkg-blue.jpg") repeat-x bottom left;
 }
 
-/* line 387, ../_sass/color.scss */
+/* line 401, ../_sass/color.scss */
 div#under-footer {
   padding: 10px 0;
   background-image: url("/images/bg_lower_footer.jpg");
 }
-/* line 391, ../_sass/color.scss */
+/* line 405, ../_sass/color.scss */
 div#under-footer a {
   color: #fff;
   font-size: 0.6em;
 }
-/* line 397, ../_sass/color.scss */
+/* line 411, ../_sass/color.scss */
 div#under-footer div.map div {
   margin-left: 50px;
 }
-/* line 400, ../_sass/color.scss */
+/* line 414, ../_sass/color.scss */
 div#under-footer div.map div img {
   float: left;
   margin: 5px 10px 0 0;
 }
-/* line 407, ../_sass/color.scss */
+/* line 421, ../_sass/color.scss */
 div#under-footer div.siteforte {
   text-align: center;
   font-size: 0.6em;
   line-height: 13px;
   color: #FFF;
 }
-/* line 413, ../_sass/color.scss */
+/* line 427, ../_sass/color.scss */
 div#under-footer div.siteforte p {
   margin: 0;
 }
 
-/* line 419, ../_sass/color.scss */
+/* line 433, ../_sass/color.scss */
 div#footer {
   margin-top: 25px;
   background-image: url("/images/bg_footer.jpg");
 }
-/* line 423, ../_sass/color.scss */
+/* line 437, ../_sass/color.scss */
 div#footer div#footer-top {
   width: 100%;
   margin: 0;
   height: 29px;
   background-image: url("/images/top_footer.jpg");
 }
-/* line 430, ../_sass/color.scss */
+/* line 444, ../_sass/color.scss */
 div#footer div.twitter {
   text-align: center;
 }
-/* line 432, ../_sass/color.scss */
+/* line 446, ../_sass/color.scss */
 div#footer div.twitter a {
   color: #FFF;
 }
-/* line 435, ../_sass/color.scss */
+/* line 449, ../_sass/color.scss */
 div#footer div.twitter p {
   margin: 20px;
 }

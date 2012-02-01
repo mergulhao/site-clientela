@@ -126,6 +126,20 @@ div#header {
       }
     }
   }
+  div#logo-center {
+    width: 100%;
+
+    h1 {
+      a {
+        margin: 0 auto;
+        display: block;
+        background: #FFF url("/images/logo.png") no-repeat;
+        width: 233px;
+        height: 60px;
+        font-size: 0px;
+      }
+    }
+  }
 }
 
 div#banner-under {
